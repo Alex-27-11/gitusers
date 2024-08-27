@@ -1,0 +1,22 @@
+.mainPage {
+	&__container {
+		padding: 20px;
+	}
+	&__inner {
+	}
+	&__showButton {
+		font-weight: 500;
+		font-size: 24px;
+		margin-bottom: 20px;
+		padding: 5px;
+		border: 1px solid gray;
+		&:hover {
+			background: green;
+		}
+	}
+	&__usersBox {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+}

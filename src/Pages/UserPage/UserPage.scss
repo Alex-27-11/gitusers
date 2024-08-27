@@ -1,0 +1,39 @@
+.userPage {
+	&__container {
+		padding: 20px;
+	}
+	&__inner {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+	&__buttonHome {
+		width: 80px;
+		font-weight: 600;
+		font-size: 24px;
+		padding: 5px;
+		border: 1px solid gray;
+		&:hover {
+			background: lightgray;
+		}
+	}
+	&__boxImg {
+		width: 200px;
+		height: 200px;
+	}
+	&__img {
+	}
+	&__info {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+	&__login {
+		font-weight: 500;
+		font-size: 22px;
+	}
+	&__avatar-url {
+	}
+	&__events-url {
+	}
+}

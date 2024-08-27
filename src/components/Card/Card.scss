@@ -1,0 +1,45 @@
+.card {
+	&__user {
+		display: flex;
+		gap: 20px;
+	}
+	&__link {
+	}
+	&__boxImg {
+		width: 150px;
+		height: 150px;
+	}
+	&__userInfo {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	&__login {
+		font-weight: 500;
+		font-size: 20px;
+	}
+	&__type {
+	}
+	&__url {
+	}
+	&__buttons {
+		display: flex;
+		gap: 10px;
+	}
+	&__buttonLike {
+		width: 50px;
+		height: 50px;
+		border: 1px solid gray;
+		&:hover {
+			background: greenyellow;
+		}
+	}
+	&__buttonLike-active {
+		background: greenyellow;
+	}
+	&__buttonRemove {
+		width: 50px;
+		height: 50px;
+		border: 1px solid gray;
+	}
+}
